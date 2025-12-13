@@ -1,6 +1,0 @@
-[submodule "slam_toolbox"]
-	path = slam_toolbox
-	url = https://github.com/SlamToolbox/slam_toolbox.git
-[submodule "sllidar_ros2"]
-	path = sllidar_ros2
-	url = https://github.com/Slamtec/rplidar_ros.git
