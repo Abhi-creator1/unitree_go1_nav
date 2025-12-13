@@ -1,7 +1,0 @@
-# ROS2 workspace artifacts (ignored from root)
-../build/
-../install/
-../log/
-
-# Python cache
-__pycache__/
