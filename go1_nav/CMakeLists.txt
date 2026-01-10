@@ -53,6 +53,20 @@ ament_target_dependencies(unitree_highcmd_keepalive
   ros2_unitree_legged_msgs
 )
 
+add_executable(cmd_vel_to_highcmd src/cmd_vel_to_highcmd.cpp)
+
+ament_target_dependencies(cmd_vel_to_highcmd
+  rclcpp
+  geometry_msgs
+  ros2_unitree_legged_msgs
+)
+
+install(TARGETS
+  cmd_vel_to_highcmd
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+
 install(TARGETS
   unitree_highcmd_keepalive
   DESTINATION lib/${PROJECT_NAME}
