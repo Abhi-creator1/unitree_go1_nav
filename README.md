@@ -1,4 +1,4 @@
-````md
+
 # Unitree Go1 Navigation (ROS 2)
 
 This repository contains a **ROS 2-based indoor mapping and navigation stack for the Unitree Go1 quadruped robot**.  
@@ -44,7 +44,6 @@ Make sure the following packages are installed:
 sudo apt install ros-humble-nav2-bringup
 sudo apt install ros-humble-slam-toolbox
 sudo apt install ros-humble-tf-transformations
-````
 
 Clone required repositories into your ROS 2 workspace:
 
@@ -182,5 +181,3 @@ These nodes ensure **stable motion control** and **accurate localization**.
 Robotics | Mechatronics | ROS 2
 GitHub: [https://github.com/Abhi-creator1](https://github.com/Abhi-creator1)
 
-```
-```
