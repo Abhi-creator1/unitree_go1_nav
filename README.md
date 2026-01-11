@@ -44,6 +44,7 @@ Make sure the following packages are installed:
 sudo apt install ros-humble-nav2-bringup
 sudo apt install ros-humble-slam-toolbox
 sudo apt install ros-humble-tf-transformations
+```
 
 Clone required repositories into your ROS 2 workspace:
 
